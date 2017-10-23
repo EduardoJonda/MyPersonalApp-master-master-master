@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="tecsup.teoria04.eduardo.jonda.com.mypersonalapp.Main2ActivityConfig">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Configuración"
+        android:layout_marginTop="0dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombres"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estilos"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/s1"/>
+
+        <TextView
+         android:layout_marginLeft="15dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Idioma"
+         android:textColor="@color/black"
+         android:textSize="20dp"
+         />
+
+        <ListView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:entries="@array/s2"/>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

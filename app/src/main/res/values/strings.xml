@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MyPersonalApp</string>
+    <string name="misDatos">Mis Datos</string>
+    <string name="config">Configuración</string>
+    <string name="login">Ingresar</string>
+    <string name="logout">Logout</string>
+    <string name="inicio">Inicio</string>
+    <string name="ic">Iniciar session</string>
+    <string name="email">seichi.jonda@tecsup.edu.pe</string>
+    <string name="username">Eduardo Jonda</string>
+    <string name="sumary1">Por favor proporcione su nombre de usuario</string>
+    <string name="sumary2">Eduardo Jonda</string>
+    <string name="sumary3">Eduardo Jonda</string>
+
+    <string-array name="s1">
+        <item>Dark Style</item>
+        <item>Light Style</item>
+        <item>Live Style</item>
+    </string-array>
+
+    <string-array name="s2">
+        <item>Español</item>
+        <item>Ingles</item>
+    </string-array>
+
+        <string-array name="listArray">
+            <item>Titulo</item>
+            <item>Titulo y detalles</item>
+            <item>Todo la data</item>
+        </string-array>
+
+        <string-array name="listValues">
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+        </string-array>
+
+</resources>
